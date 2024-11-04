@@ -8,10 +8,6 @@ import {
 } from './constants'
 import { isNull } from './validators'
 
-export function currentHour() {
-  return new Date().getHours()
-}
-
 export function normalizeSelectValue(value) {
   return isNull(value) || isNaN(value) ? value : +value
 }

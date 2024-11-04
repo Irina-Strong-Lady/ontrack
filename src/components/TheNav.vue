@@ -1,7 +1,7 @@
 <script setup>
-import { NAV_ITEMS } from "@/constants";
-import { currentPage } from "@/router";
-import NavItem from "@/components/NavItem.vue";
+import { NAV_ITEMS } from '@/constants'
+import { currentPage } from '@/router'
+import NavItem from '@/components/NavItem.vue'
 </script>
 
 <template>
